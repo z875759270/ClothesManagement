@@ -82,7 +82,8 @@
                         <li><a href="index.aspx">Settings</a> <i class="icon left">&#61903;</i><i class="icon right">&#61815;</i></li>
                         <li><a href="index.aspx">Sign Out</a> <i class="icon left">&#61903;</i><i class="icon right">&#61815;</i></li>
                     </ul>
-                    <h4 class="m-0">Malinda Hollaway</h4>
+                    <h4 class="m-0">
+                        <asp:Label ID="lblUsername" runat="server" Text="Label">Malinda Hollaway</asp:Label></h4>
                     @malinda-h
                    
                 </div>
